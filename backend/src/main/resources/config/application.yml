@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: FirebaseVideoHub
+    
+firebase:
+  key: ${FIREBASE_KEY}
