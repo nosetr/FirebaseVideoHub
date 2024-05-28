@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: my-test
+    
+logging:
+  level:
+    org.springframework: DEBUG
+    
+server:
+  port: 8083
+  error:
+    include-stacktrace: always
+    include-message: always
+    include-binding-errors: always
+    include-exception: true
+    
+firebase:
+  userId: ${FIREBASE_USER_ID}
+  email: ${FIREBASE_EMAIL}
+  password: ${FIREBASE_PASSWORD}
+  
